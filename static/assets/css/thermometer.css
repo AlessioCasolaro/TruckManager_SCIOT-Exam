@@ -1,0 +1,107 @@
+.out {
+    box-sizing: border-box;
+    font-family: "Courier Prime", monospace;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.container-thermo {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.outer-circle {
+    width: 150px;
+    height: 150px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-circle {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: url("http://100dayscss.com/codepen/thermostat-gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+    position: relative;
+}
+
+.mid {
+    margin: 5px 0;
+    font-size: 25px;
+    transition: 0.4s;
+    color: #5a2962;
+    backface-visibility: hidden;
+}
+
+.mid::after {
+    content: "°";
+    position: absolute;
+    font-size: 20px;
+    top: 0px;
+    right: -10px;
+}
+
+
+.bottom {
+    font-size: 12px;
+    color: #5a2962;
+}
+
+.line {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    transition: 0.4s;
+    transform: rotate(-20deg);
+}
+
+.line::after {
+    content: "";
+    width: 15px;
+    height: 2px;
+    background-color: rgba(#98317a, 0.6);
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transform: rotate(45deg);
+}

@@ -1,0 +1,21 @@
+.truckTable {
+
+    margin: auto;
+    margin-bottom: 4vh;
+}
+
+.tdTruckData {
+    height: 10rem;
+    width: 15rem;
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tdTruck {
+    width: 15rem;
+}
+
+.trucks {
+    text-align: center;
+}
