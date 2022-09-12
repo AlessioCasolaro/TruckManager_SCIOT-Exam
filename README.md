@@ -2,6 +2,8 @@
 The owner of a Transportation company, owns 5 trucks and is constantly working to expand. He would like to have complete control over what happens in his company's in order to improve earnings, preserve the proper operation of his trucks, and to improve the work of his truck drivers.
 
 #	Truck Manager
+<span style="display:block;text-align:center">![Architecture](static/assets/images/logoHome.png)</span>
+
 **Truck manager** is a project carried out for the Serverless Computing for IoT exam that is designed to help manage his company and helping his truck drivers. With it the company's Managers can, through a web portal:
 
 - Have control over the trucks, through a simple Dashboard to view the basic information of the vehicle and the temperatures inside the freezing chambers detected by sensors and managed automatically.
@@ -176,7 +178,7 @@ Open it at http://0.0.0.0:8001/
 
     python3 app.py
 
-Go to `http://127.0.0.1:5000/`
+Go to http://127.0.0.1:5000/
 
 #### Check logs about email sent
 
@@ -184,8 +186,8 @@ Go to `http://127.0.0.1:5000/`
 
 # What's next?
 - Add other useful sensor on the Trucks, like:
--- GPS devices that provide information about drivers’ speed and how hard they accelerate, and these indicators affect fuel consumption.
--- Fuel devices and Oil Detector devices to full check the trucks.
+    -   GPS devices that provide information about drivers’ speed and how hard they accelerate, and these indicators affect fuel consumption.
+    -   Fuel devices and Oil Detector devices to full check the trucks.
 
 - Add section in the websites for the truck drivers.
 
