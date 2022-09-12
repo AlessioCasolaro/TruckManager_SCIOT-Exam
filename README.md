@@ -68,7 +68,7 @@ Run commands below to install NodeJS in order to run DynamoDB Admin GUI
 # Environment Setup
 ### 1. Clone the repository:
 
-    git clone https://github.com/AlessioCasolaro/TruckManager_SCIOT-Exam-.git
+    git clone https://github.com/AlessioCasolaro/TruckManager_SCIOT-Exam.git
 
 
 ### 2. Open a console and launch LocalStack:
