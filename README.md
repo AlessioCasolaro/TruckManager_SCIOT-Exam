@@ -26,7 +26,7 @@ The messages sent to the `errors` queue contains information about the truck on 
 The web app also allows you to indicate for each vehicle the the date and time of the transport arrives/departures by saving them to the database. It is important for managers to manage this since, by law and to always ensure that each driver is working at his or her maximum capacity the 9-hour workday should never be exceeded. Every 30 minutes the `sleepFunction` is triggered, which checks the start time of the transport, checking if the 9 hours of work has been exceeded by alerting the truck driver via a message to the Telegram bot to stop immediately and go to sleep.
 
 # Architecture
-![Architecture](readmeAssets/architecture.jpg)
+![Architecture](readmeAssets/architectureFinal.jpg)
 
 - **Cloud Infrastructure**: AWS Services simulated through a cloud service emulator [Localstack](https://docs.localstack.cloud/get-started/)
 - **IoT devices**: Simulated with Python function using AWS SDK for Python ([Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html))
